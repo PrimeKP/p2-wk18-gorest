@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.gorest.testsuite.UserCRUDWithSteps" skipped="0" tests="1" time="8.14" timestamp="2023-01-02T01:34:40.870Z[Europe/London]"><testcase classname="com.gorest.testsuite.UserCRUDWithSteps" name="Verify if the user is added to application"><error message="Cannot invoke method hasCustomParserExcludingDefaultParser() on null object" type="java.lang.NullPointerException">Cannot invoke method hasCustomParserExcludingDefaultParser() on null object</error><system-err>Cannot invoke method hasCustomParserExcludingDefaultParser() on null object&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.findContentType(RestAssuredResponseOptionsGroovyImpl.groovy:484)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:391)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+com.gorest.gorestinfo.UserSteps.getUserInfoByUserID(UserSteps.java:40)&#13;
+com.gorest.testsuite.UserCRUDWithSteps.test002(UserCRUDWithSteps.java:46)&#13;
+</system-err></testcase></testsuite>
